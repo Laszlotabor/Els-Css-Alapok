@@ -18,6 +18,7 @@ nav{
 width: 100vw;
 height: 80px;
 position: sticky;
+top: 0;
 background-color: black;
 color: rgb(2, 9, 15);
 display: flex;
@@ -60,8 +61,12 @@ width: 180px;
 color: aliceblue;
 margin: 10px;
 }
-
-.várunk{
+h4{
+    margin-bottom: 30px;
+    margin-top: 10px;
+   
+}
+.várunk {
 height: 200px;
 background-color: blanchedalmond;
 margin: 0;
@@ -71,11 +76,14 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 font-size: 44px;
+
 }
 .vonalka{
 width: 300px;
 height: 3px;
 background-color: blue;
+margin-bottom: 3px;
+
 
 
 }
@@ -109,4 +117,37 @@ background-color: azure;
 margin-top: 5px;
 margin-bottom: 5px;
 
+}
+
+@media screen and (max-width:1000px){
+    .kezelések{
+flex-direction: column;
+height: 100%;
+}
+.kezelések sec>div{
+    width: 500px;
+    margin: 2px;
+    height: 145px;
+}
+nav{height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: none;
+}
+header{
+    display: none;
+}
+.várunk{
+font-size: 33px;
+
+}
+
+.kezelések>sec{
+    width: 100%;
+}
+
+    
 }
