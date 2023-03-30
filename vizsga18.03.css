@@ -2,7 +2,6 @@
 *{margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
@@ -15,9 +14,9 @@ flex-direction: column;
 .container{
 width: 100vw;
 }
-nav{opacity: 90%;
+nav{
 width: 100vw;
-height: 120px;
+height: 80px;
 position: sticky;
 top: 0;
 background-color: black;
@@ -27,105 +26,49 @@ flex-direction: row;
 }
 .logo{
 width: 30%;
-background-color:white;
-background-image: url(https://ballaispa.hu/wp-content/uploads/2018/05/ballai-logo-black.png);
-background-position: center;
-background-repeat: no-repeat;
+background-color: blue;
 }
 .navbar{
    width: 70%;
-    background-color: white;
+    background-color: rgb(77, 12, 12);
     display: flex;
     flex-direction: row;
     justify-content:center;
-
-   
+    align-items: center;
 }
 .navbar>div{
-display: flex;
-height: 120px;
-background-color: white;
+height: 60px;
+width: 70px;
+background-color: beige;
 margin-left: 10px;
 margin-right: 10px;
-justify-content: center;
-align-items: center;
-border-top: solid white 4px;
-font-size: 30px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
 }
-
-.navbar>div:hover
-{
-color: rgb(231, 86, 154);
-border-top: solid 4px rgb(231, 86, 154) ;
-}
-
-
-
 
 header{
-    height: 180px;
-    background-color:black;
+    height: 160px;
+    background-color: rgb(177, 46, 46);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 header>div{
-height: 160px;
-width: 240px;
+background-color: rgb(39, 4, 4);
+height: 130px;
+width: 180px;
 color: aliceblue;
-margin: 10px 10px 10px 10px;
+margin: 10px;
 }
-.logo1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
+h4{
+    margin-bottom: 30px;
+    margin-top: 10px;
+   
 }
-.logo1 img {
-    flex-shrink: 0;
-    max-width: 70%;
-    max-height: 100%
-}
-.logo2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.logo2 img {
-    flex-shrink: 0;
-    max-width: 70%;
-    max-height: 100%
-}
-.logo3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.logo3 img {
-    flex-shrink: 0;
-    max-width: 70%;
-    max-height: 100%
-}
-.logo4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.logo4 img {
-    flex-shrink: 0;
-    max-width: 70%;
-    max-height: 100%
-}
-          
-
-.várunk{
-height: 280px;
-background-color: white;
+.várunk {
+height: 200px;
+background-color: blanchedalmond;
 margin: 0;
 text-align: center;
 display: flex;
@@ -133,34 +76,32 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 font-size: 44px;
-padding-top: 30px;
+
 }
 .vonalka{
-width: 180px;
-height: 6px;
-background-color: rgb(231, 86, 154);
-margin-top: 60px;
-}
+width: 300px;
+height: 3px;
+background-color: blue;
+margin-bottom: 3px;
 
-.azénidőm{
-    margin-bottom: 0px;
+
+
 }
 
 
 .kezelések{
-
-background-color:white ;
+height: 400px;
+background-color: aqua;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding-bottom: 60px;
 }
 
 .kezelések>sec{
-height: 430px;
-width: 200px;
-background-color:white ;
+height: 300px;
+width: 150px;
+background-color:rgb(6, 63, 63) ;
 margin-left: 20px;
 margin-right: 20px;
 display: flex;
@@ -168,169 +109,45 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-.arckezeléskép{
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    background-image: url(http://ballaispa.hu/wp-content/uploads/2018/05/arckezelesek2-300x300.jpg);
-    background-size: cover;
-    background-position: center;
-    }
-    .gyantákkép{
-        height: 200px;
-        width: 200px;
-        background-color: rgb(241, 182, 182);
-        background-image: url(http://ballaispa.hu/wp-content/uploads/2018/05/gyanta2-295x300.jpg);
-        background-size: cover;
-        background-position: center;
-        } 
-        .testkezeléskép{
-            height: 200px;
-            width: 200px;
-            background-color: rgb(241, 182, 182);
-            background-image: url(http://ballaispa.hu/wp-content/uploads/2018/05/testkezelesek2-300x296.jpg);
-            background-size: cover;
-            background-position: center;
-            }
-            .egyébkezelésekkép{
-                height: 200px;
-                width: 200px;
-                background-color: rgb(241, 182, 182);
-                background-image: url(http://ballaispa.hu/wp-content/uploads/2018/05/szempilla2-299x300.jpg);
-                background-size: cover;
-                background-position: center;
-                } 
-.sminkkép{
-height: 200px;
-width: 200px;
-background-color: rgb(241, 182, 182);
-background-image: url(http://ballaispa.hu/wp-content/uploads/2018/05/smink2-300x299.jpg);
-background-size: cover;
-background-position: center;
-}  
-.manikűrpedikűrkép{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(241, 182, 182);
-    background-image: url(http://ballaispa.hu/wp-content/uploads/2018/05/manikur2-299x300.jpg);
-    background-size: cover;
-    background-position: center;
-    }                
-
-
-
-.kezelés{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    height: 25%;
-    width: 100%;
-    color: black
+.kezelések sec>div
+{
+height: 130px;
+width: 120px;
+background-color: azure;
+margin-top: 5px;
+margin-bottom: 5px;
 
 }
-.részletek-gomb{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    border-radius: 50px;
-    border: solid 2px rgb(231, 86, 154) ;
-    height: 15%;
-    width: 80%;
-    background-color: white;
-    color:rgb(231, 86, 154) ;
-    
-}
-.részletek-gomb:hover{
-color: green;
-border:solid 2px green ;
-}
-.képbox{
- height: 750px; 
- width: 100%;
- background-color: rgb(212, 179, 243); 
- display: flex; 
- flex-direction: row;
-}
-.képdoboz{
-    width: 60%;
-    height: 100%;
-    background-color: rgb(238, 238, 253);
-    
-}
-.képdoboz>img{
-    width: 570px;
-    height: 400px;
-    margin-top: 140px;
-    margin-left: 120px;
-}
-.szövegesrész{
-    width: 40%;
-    height: 100%;
-    background-color: rgb(238, 238, 253); 
-    padding-left: 23px;   
-}
-.képszöveg{
-    font-size: 28px;
-    font-weight:bolder;
-    margin-top: 120px;
-    margin-bottom: 30px;
-    margin-right: 120px;
-}
-.képszöveg>span{
-    color:rgb(231, 86, 154) ;
-}
-.pinkvonal{
-height: 5px;
-width: 200px;
-background-color:rgb(231, 86, 154) ;
 
-}
-.képleírás{
-    font-size:19px;
-    margin-top: 15px;
-    margin-top: 30px;
-    margin-right: 80px;
-    color: rgb(128, 128, 128);
-}
-
-
-
-
-
-
-@media screen and (max-width:1300px) {
-    .logo{
-        display: none;
-    }
- .navbar{
-    width: 100%;
- }   
-}
-@media screen and (max-width:1100px){
-    nav{
-        display: none;
-    }
-    header{
-        display: none;
-    }
+@media screen and (max-width:1000px){
     .kezelések{
-        flex-direction: column;
-    }
-    .képbox{
-        display: flex;
-        flex-direction: column;
-    }
-    .képdoboz{
-width: 100%;
-    }
-    .képdoboz>img{
-        width: 420px;
-        height: 300px;
-    }
-    .szövegesrész{
-width: 100%;
-    }
+flex-direction: column;
+height: 100%;
+}
+.kezelések sec>div{
+    width: 500px;
+    margin: 2px;
+    height: 145px;
+}
+nav{height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: none;
+}
+header{
+    display: none;
+}
+.várunk{
+font-size: 33px;
+
+}
+
+.kezelések>sec{
+    width: 100%;
+}
+
     
 }
